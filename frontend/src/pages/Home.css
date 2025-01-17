@@ -1,0 +1,60 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f9fafb;
+}
+
+.content-card {
+  max-width: 28rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.welcome-content,
+.login-content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #4b5563;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.login-message {
+  margin-bottom: 1rem;
+}
+
+.signup-prompt {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.signup-prompt p {
+  color: #6b7280;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .content-card {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
